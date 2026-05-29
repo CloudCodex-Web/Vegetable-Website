@@ -10,31 +10,31 @@ const products = [
     id: 1,
     image: product1,
     name: "Fresh Potatoes",
-    price: "$70",
+    price: "NPR 70",
   },
   {
     id: 2,
     image: product2,
     name: "Fresh Carrots",
-    price: "$90",
+    price: "NPR 90",
   },
   {
     id: 3,
     image: product3,
     name: "Fresh Spinach",
-    price: "$50",
+    price: "NPR 50",
   },
   {
     id: 4,
     image: product4,
     name: "Fresh Tomatoes",
-    price: "$25",
+    price: "NPR 25",
   },
   {
     id: 5,
     image: product5,
     name: "Fresh Cauliflower",
-    price: "$40",
+    price: "NPR 40",
   }
 ];
 

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Logo & Description */}
         <div>
-          <h1 className="text-3xl font-bold text-orange-400">Shopora</h1>
+          <h1 className="text-3xl font-bold text-orange-400">BuyNest.</h1>
 
           <p className="mt-4 text-gray-400 leading-relaxed">
             Your trusted destination for modern shopping, premium products, and fast delivery.
