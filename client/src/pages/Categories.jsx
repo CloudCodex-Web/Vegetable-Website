@@ -18,10 +18,7 @@ import product15 from "../assets/product15.jpg";
 import product16 from "../assets/product16.jpg";
 import product17 from "../assets/product17.jpg";
 
-
-
 const Categories = () => {
-
   /* ---------------- CATEGORIES ---------------- */
   const categories = [
     "All",
@@ -53,7 +50,6 @@ const Categories = () => {
     { id: 16, name: "Cilantro", category: "Herbs & Spices", price: 100, product: product15 },
     { id: 17, name: "Oregano", category: "Herbs & Spices", price: 35, product: product16 },
     { id: 18, name: "Organic Eggs", category: "Organic", price: 250, product: product17 },
-
   ];
 
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -65,7 +61,9 @@ const Categories = () => {
       : products.filter((item) => item.category === selectedCategory);
 
   return (
-    <section id="categories" className="w-full py-16 bg-white">
+    <section
+      id="categories"
+      className="w-full py-16 bg-white">
       {/* TITLE */}
       <div className="text-center mb-10">
         <p className=" text-orange-600 font-semibold">Our Categories</p>
@@ -85,17 +83,6 @@ const Categories = () => {
                   ? "bg-orange-500 text-white"
                   : "bg-white text-gray-700 hover:bg-orange-100"
               }`}>
-
-
-
-
-
-
-
-
-
-
-
             {cat}
           </button>
         ))}
@@ -125,7 +112,7 @@ const Categories = () => {
 
               <p className="text-orange-500 font-bold mt-2 text-sm">NPR {item.price}</p>
 
-              <button className="mt-3 w-full bg-orange-500 text-white py-1.5 text-xs rounded-md hover:bg-orange-600 transition">
+              <button className="mt-3 w-full bg-orange-500 text-white py-1.5 text-xs rounded-2xl hover:bg-orange-600 transition">
                 Add to Cart
               </button>
             </div>
