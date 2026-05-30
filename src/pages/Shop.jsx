@@ -27,14 +27,14 @@ const products = [
   {
     id: 4,
     image: product4,
-    name: "Fresh Tomatoes",
-    price: "NPR 25",
+    name: "Fresh Broccoli",
+    price: "NPR 120",
   },
   {
     id: 5,
     image: product5,
     name: "Fresh Cauliflower",
-    price: "NPR 40",
+    price: "NPR 60",
   }
 ];
 

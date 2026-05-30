@@ -8,6 +8,16 @@ import product5 from "../assets/product5.jpg";
 import product6 from "../assets/product6.jpg";
 import product7 from "../assets/product7.jpg";
 import product8 from "../assets/product8.jpg";
+import product9 from "../assets/product9.jpg";
+import product10 from "../assets/product10.jpg";
+import product11 from "../assets/product11.jpg";
+import product12 from "../assets/product12.jpg";
+import product13 from "../assets/product13.jpg";
+import product14 from "../assets/product14.jpg";
+import product15 from "../assets/product15.jpg";
+import product16 from "../assets/product16.jpg";
+import product17 from "../assets/product17.jpg";
+
 
 
 const Categories = () => {
@@ -26,14 +36,24 @@ const Categories = () => {
 
   /* ---------------- PRODUCTS ---------------- */
   const products = [
-    { id: 1, name: "Potato", category: "Fresh Vegetables", price: 100, product: product1 },
-    { id: 2, name: "Carrot", category: "Fresh Vegetables", price: 80, product: product2 },
-    { id: 3, name: "Spinach", category: "Fresh Vegetables", price: 250, product: product3 },
+    { id: 1, name: "Potato", category: "Fresh Vegetables", price: 70, product: product1 },
+    { id: 2, name: "Carrot", category: "Fresh Vegetables", price: 90, product: product2 },
+    { id: 3, name: "Spinach", category: "Fresh Vegetables", price: 50, product: product3 },
     { id: 4, name: "Broccoli", category: "Fresh Vegetables", price: 120, product: product4 },
     { id: 5, name: "Cauliflower", category: "Leafy Greens", price: 60, product: product5 },
     { id: 7, name: "Milk", category: "Dairy & Eggs", price: 90, product: product6 },
     { id: 8, name: "Eggs", category: "Dairy & Eggs", price: 200, product: product7 },
     { id: 9, name: "Rice", category: "Grocery Essentials", price: 500, product: product8 },
+    { id: 10, name: "Apple", category: "Fresh Fruits", price: 150, product: product9 },
+    { id: 11, name: "Banana", category: "Fresh Fruits", price: 80, product: product10 },
+    { id: 12, name: "Orange", category: "Fresh Fruits", price: 120, product: product11 },
+    { id: 13, name: "Lettuce", category: "Leafy Greens", price: 40, product: product12 },
+    { id: 14, name: "Kale", category: "Leafy Greens", price: 150, product: product13 },
+    { id: 15, name: "Basil", category: "Herbs & Spices", price: 200, product: product14 },
+    { id: 16, name: "Cilantro", category: "Herbs & Spices", price: 100, product: product15 },
+    { id: 17, name: "Oregano", category: "Herbs & Spices", price: 35, product: product16 },
+    { id: 18, name: "Organic Eggs", category: "Organic", price: 250, product: product17 },
+
   ];
 
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -65,6 +85,17 @@ const Categories = () => {
                   ? "bg-orange-500 text-white"
                   : "bg-white text-gray-700 hover:bg-orange-100"
               }`}>
+
+
+
+
+
+
+
+
+
+
+
             {cat}
           </button>
         ))}

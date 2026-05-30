@@ -62,7 +62,14 @@ const Navbar = () => {
           {/* Cart */}
           <div className="relative cursor-pointer">
             <FiShoppingCart className="text-2xl hover:text-orange-500 transition duration-300" />
-
+          </div>
+          {/* Login Button  */}
+          <div>
+            <button
+              className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600 transition-all duration-300 cursor-pointer hover:scale-105"
+              onClick={() => alert("Login feature is coming soon 🚀")}>
+              Login
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
